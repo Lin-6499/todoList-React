@@ -1,0 +1,44 @@
+.content{
+    display: flex;
+    margin:0;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    height: 30px;
+}
+.content:hover{
+    .btn{
+        display: inline;
+        margin-right: 0;
+        padding: 0;
+        margin-left: auto;
+        float: left;
+        height: 20px;
+    }
+    background-color: #eee;
+    transition-duration: 0.4s;
+}
+.check{
+    margin: 0 10px;
+    display: flex;
+}
+.btn{
+    display: none;
+    background: #ea6666;
+    border: none;
+    border-radius: 3px;
+    width: 25px;
+    color: #ffffff;
+    box-shadow: 0 2px 2px #5e5b5b;
+    transition-duration: 0.2s;
+}
+.btn:hover{
+    background: #e82626;
+}
+.btn:active{
+    background: #e82626;
+    border: none;
+    border-radius: 3px;
+    width: 25px;
+    box-shadow: 0 2px 1px #393737;
+    transform: translateY(1px);
+}

@@ -1,0 +1,41 @@
+.sty{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    margin:0;
+    vertical-align: middle;
+}
+
+.check{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline;
+    background: #ea6666;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    color: #ffffff;
+    box-shadow: 0 2px 2px #5e5b5b;
+    transition-duration: 0.2s;
+    margin-right: 0;
+    padding: 0;
+    margin-left: auto;
+    float: right;
+    height: 20px;
+}
+
+.btn:hover{
+    background: #e82626;
+}
+
+
+.btn:active{
+    background: #e82626;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px #393737;
+    transform: translateY(1px);
+}
