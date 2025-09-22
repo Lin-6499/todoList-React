@@ -1,9 +1,11 @@
+
 .sty{
-    width: 250px;
+    width: 90%;
     display: flex;
     align-items: center;
     margin:0;
     vertical-align: middle;
+    font-size: 80%;
 }
 
 .check{
@@ -16,7 +18,7 @@
     background: #ea6666;
     border: none;
     border-radius: 3px;
-    width: 100px;
+    width: 50%;
     color: #ffffff;
     box-shadow: 0 2px 2px #5e5b5b;
     transition-duration: 0.2s;

@@ -14,7 +14,6 @@ export default class List extends React.Component {
     render() {
         const {taskList,updateTask,deleteTask} = this.props;
         return (
-            <>
                 <table className={ListCSS.table}>
                     <thead>
                     </thead>
@@ -24,7 +23,6 @@ export default class List extends React.Component {
                     })}
                     </tbody>
                 </table>
-            </>
         )
     }
 }
